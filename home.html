@@ -9,6 +9,12 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="./homeStyle.css">
 
+   <!-- Link Swiper's CSS -->
+   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiperswiper-bundle.min.css"/> -->
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+
 </head>
 <body>
     <!-- header section start -->
@@ -37,51 +43,50 @@
     <!-- start slider code -->
 
     <section class="home" id="home">
-        <section class="home-slider">
-            <section class="wrapper">
-                <section class="slide slide1">
-                    <section class="content">
+		<section class="swiper home-slider">
+			<section class="swiper-wrapper wrapper">
+				<section class="swiper-slide slide slide1">
+					<section class="content">
+						<img src="crown-symbol.png">
 
-                        <img src="./pic/crown-symbol.png" alt="crown-symbol">
-
-                        <h3>delicious royate</h3>
+						<h3>delicious royate</h3>
 						<h1>gift voucher</h1>
 						<p>
 							give away your beloved customers
 						</p>
 						<a href="#" class="btn">order now</a>
-                    </section>
-                </section>
+					</section>
+				</section>
 
-                <section class="slide slide2">
-                    <section class="content">
+				<section class="swiper-slide slide slide2">
+					<section class="content">
+						<img src="crown-symbol.png">
 
-                        <img src="./pic/crown-symbol.png" alt="crown-symbol">
-
-                        <h3>sale of 10% this dish</h3>
+						<h3>sale of 10% this dish</h3>
 						<h1>the fresh</h1>
 						<p>
-							food resturant
+							food restaurant
 						</p>
 						<a href="#" class="btn">order now</a>
-                    </section>
-                </section>
+					</section>
+				</section>
 
-                <section class="slide slide3">
-                    <section class="content">
+				<section class="swiper-slide slide slide3">
+					<section class="content">
+						<img src="crown-symbol.png">
 
-                        <img src="./pic/crown-symbol.png" alt="crown-symbol">
-
-                        <h3>we are open</h3>
+						<h3>we are open</h3>
 						<h1>fresh fruits</h1>
 						<p>
 							you will love it
 						</p>
 						<a href="#" class="btn">order now</a>
-                    </section>
-                </section>
-            </section>
-        </section>
+					</section>
+				</section>
+			</section>
+
+			<div class="swiper-pagination"></div>
+		</section>
     </section>
 
     <!-- edn of slider code -->
@@ -90,7 +95,16 @@
 
 
 
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    
+
+    <!-- my js code -->
     <script src="./home.js"></script>
     
 </body>

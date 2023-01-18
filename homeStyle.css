@@ -39,6 +39,7 @@ header{
     align-items: center;
     justify-content: space-between;
     box-shadow: var(--box-shadow);
+    z-index: 10000;
 }
 
 
@@ -141,7 +142,7 @@ header .icons #menu{
     font-size: 1.7rem;
     color: #fff;
 	border: .1rem solid rgba(205,170,124,0.2);
-	background: transparent;
+	/* background: transparent; */
 	cursor: pointer;
 	padding: .8rem 3rem;
 	position: relative;
