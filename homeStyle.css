@@ -22,7 +22,7 @@
 
 html{
     font-size: 62.5%;
-    overflow: hidden;
+    /* overflow: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -65,16 +65,16 @@ header .icons i{
     height: 4.5rem;
     width: 4.5rem;
     line-height: 4.5rem;
-    background: var(--light-color);
+    /* background: var(--light-color); */
     text-align: center;
     font-size: 1.7rem;
-    color: #fff;
+    color: var(--light-color);
 }
 
 header .icons i:hover{
     color: #fff;
     background: var(--light-color);
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
 }
 
 header .icons #menu{
@@ -82,6 +82,35 @@ header .icons #menu{
 }
 
 /* end of navbar style */
+
+/* start slider style */
+
+.home .home-slider .slide{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+}
+
+.home .home-slider .slide1{
+    background: url(./pic/slideshow-9.jpg);
+}
+.home .home-slider .slide2{
+    background: url(./pic/slideshow-11.jpg);
+}
+.home .home-slider .slide3{
+    background: url(./pic/slideshow-8.jpg);
+}
+
+.home .home-slider .slide1,
+.home .home-slider .slide2,
+.home .home-slider .slide3{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* end of slider style */
 
 
 /* media query */
