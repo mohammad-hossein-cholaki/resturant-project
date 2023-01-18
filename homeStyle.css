@@ -16,8 +16,8 @@
  text-decoration: none;
  border: none;
  outline: none;
- text-transform: capitalize;
- transition: all .2s linear;
+ /* text-transform: capitalize;
+ transition: all .2s linear; */
 }
 
 html{
@@ -109,6 +109,61 @@ header .icons #menu{
     background-repeat: no-repeat;
 }
 
+.home .home-slider .slide .content{
+    padding-left: 9rem;
+    text-align: center;
+}
+
+.home .home-slider .slide .content h3{
+    color: var(--light-color);
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.home .home-slider .slide .content h1{
+    color: #fff;
+    font-size: 8rem;
+}
+
+.home .home-slider .slide .content p{
+    color: #fff;
+    /* color: #e6e6e6; */
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    padding: .5rem 0;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+	border: .1rem solid rgba(205,170,124,0.2);
+	background: transparent;
+	cursor: pointer;
+	padding: .8rem 3rem;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.btn:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: var(--light-color);
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	transition: .5s;
+}
+
+.btn:hover.btn:before{
+	left: 0;
+}
 
 /* end of slider style */
 
