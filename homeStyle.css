@@ -94,13 +94,13 @@ header .icons #menu{
 }
 
 .home .home-slider .slide1{
-    background: url(./pic/slideshow-9.jpg);
+    background: url(./pic/hamburger.jpg);
 }
 .home .home-slider .slide2{
-    background: url(./pic/slideshow-11.jpg);
+    background: url(./pic/food3.jpg);
 }
 .home .home-slider .slide3{
-    background: url(./pic/slideshow-8.jpg);
+    background: url(./pic/fresh\ food.jpg);
 }
 
 .home .home-slider .slide1,
@@ -127,8 +127,7 @@ header .icons #menu{
 }
 
 .home .home-slider .slide .content p{
-    color: #fff;
-    /* color: #e6e6e6; */
+    color: #fff; 
     font-size: 1.8rem;
     letter-spacing: 1px;
     padding: .5rem 0;
