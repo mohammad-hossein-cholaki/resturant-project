@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root
+{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*
+{
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ border: none;
+ outline: none;
+ /* text-transform: capitalize;
+ transition: all .2s linear; */
+}
+
+.parent .home,
+.parent .login{
+    width: 50vw;
+    height: 100vh;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+}
+
+.parent .home{
+    background: url(./pic/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(6, 6, 136, 0.651);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.parent .login{
+    background: url(./pic/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome{
+    text-align: center;
+    color: var(--light-color);
+    font-size: 30px;
+}
+
+.welcome:hover{
+    background-color: blue;
+
+}
+
+
+.parent .home:hover{
+    /* background-size: contain; */
+    transition: .5s;
+    filter: blur(2px);
+    
+    
+}
