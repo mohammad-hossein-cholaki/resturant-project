@@ -8,6 +8,34 @@ menu.onclick =()=>{
     navbar.classList.toggle('active');    
 }
 
+// start search bar code
+
+const icon=document.querySelector('.icon');
+const search=document.querySelector('.search');
+icon.onclick=function(){
+  search.classList.toggle('active')
+  clear.classList.toggle('hide')
+}
+// if(search.classList==='active'){
+//   clear.classList.add('hide')
+
+// }else{
+//   clear.classList.remove()
+// }
+
+// fix this codes
+const clear=document.querySelector('.clear');
+const searchInput=document.querySelector('#searchInput');
+console.log(searchInput.value)
+clear.onclick=function(){
+  document.querySelector('#searchInput').value=''
+}
+
+
+// end of search bar code
+
+// -----------------------------------------------------------------------
+// -----------------------------------------------------------------------
 
 // start slider code
 
@@ -36,3 +64,5 @@ menu.onclick =()=>{
 
 // end of slider code
 
+// --------------------------------------------------------------------
+// --------------------------------------------------------------------
