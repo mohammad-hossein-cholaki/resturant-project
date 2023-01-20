@@ -19,53 +19,102 @@
  /* text-transform: capitalize;
  transition: all .2s linear; */
 }
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
 
 .parent .home,
 .parent .login{
     width: 50vw;
     height: 100vh;
+    /* position: absolute; */
 }
 
-.parent{
+/* .parent{
     display: flex;
     align-items: center;
-}
+} */
 
 .parent .home{
     background: url(./pic/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(6, 6, 136, 0.651);
-    background-position: center;
-    display: flex;
+    /* background-position: center; */
+    /* display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    text-align: center;
+    text-align: center; */
 }
 
-.parent .login{
+.login{
     background: url(./pic/login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: center;
+    align-content: center;
+    text-align: center; */
 }
 
 .welcome{
     text-align: center;
     color: var(--light-color);
     font-size: 30px;
+    height: 100%;
+    padding-top: 50%;
 }
 
+/* text */
 .welcome:hover{
-    background-color: blue;
+    /* height: 50%; */
+    background-color: rgba(0, 0, 255, 0.075);
+    /* position: absolute;
+    top: 50%; */
+    /* height: 100%; */
 
 }
 
 
-.parent .home:hover{
+.home:hover{
     /* background-size: contain; */
     transition: .5s;
-    filter: blur(2px);
+    /* filter: blur(2px); */
     
+    
+}
+
+
+
+
+
+@media (max-width: 991px){
+.parent .home,
+.parent .login{
+    top: 0;
+    width: 50vw;
+    height: 80vh;
+}
+}
+
+@media (max-width: 768px){
+    .parent .home{
+        top: 100vh;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    .parent .login{
+        /* top: 0; */
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
     
 }
