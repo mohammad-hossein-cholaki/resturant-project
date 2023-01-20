@@ -38,11 +38,11 @@
     align-items: center;
 } */
 
-.parent .home{
+.home{
     background: url(./pic/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(6, 6, 136, 0.651);
+    background-color: rgba(5, 5, 109, 0.356);
     /* background-position: center; */
     /* display: flex;
     justify-content: center;
@@ -63,18 +63,63 @@
     text-align: center; */
 }
 
-.welcome{
+/* text */
+
+.text {
     text-align: center;
     color: var(--light-color);
-    font-size: 30px;
-    height: 100%;
-    padding-top: 50%;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 400;
+    /* height: 100%; */
+    height: auto;
+    /* margin-top: 25%;
+    padding-left: 15%; */
+    /* padding-right: 15%; */
+    transition: .5s;
+
 }
 
-/* text */
-.welcome:hover{
+.text-2{
+    text-align: center;
+    /* color: var(--black); */
+    color: aliceblue;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* height: 100%; */
+    height: auto;
+    margin-top: 30%;
+    /* margin-left: 15%; */
+    transition: .5s;
+}
+.login h3{
+    margin-top: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.home h3{
+    margin-top: 25%;
+    padding-left: 13%;
+    /* padding-right: 10%; */
+}
+.login p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.home p{
+    padding-left: 6%;
+    padding-right: 8%;
+}
+.secondParent{
+    height: 100%;
+    text-align: center;
+    /* background-color: #333; */
+}
+
+.text:hover{
     /* height: 50%; */
-    background-color: rgba(0, 0, 255, 0.075);
+    /* background-color: rgba(1, 1, 12, 0.164); */
     /* position: absolute;
     top: 50%; */
     /* height: 100%; */
@@ -82,9 +127,12 @@
 }
 
 
-.home:hover{
+.secondParent:hover{
+    /* background: var(--black); */
+    background-color: rgba(3, 2, 85, 0.158);
+    color: aliceblue;
     /* background-size: contain; */
-    transition: .5s;
+    /* transition: .5s; */
     /* filter: blur(2px); */
     
     
@@ -100,6 +148,14 @@
     top: 0;
     width: 50vw;
     height: 80vh;
+}
+
+.text{
+    font-size: 1.8rem;
+}
+.login p{
+    padding-left: 12%;
+    padding-right: 15%;
 }
 }
 
@@ -117,4 +173,36 @@
         position: absolute;
     }
     
+    .text{
+        padding-left: 25%;
+        padding-top: 30%;
+        font-size:2rem;
+    }
+
+    .home .text{
+        padding-left: 18%;
+    }
+
+    .login h3{
+        margin-top: 25%;
+        padding-left: 35%;
+        padding-right: 15%;
+    }
+    .home h3{
+        margin-top: 25%;
+        /* padding-left: 80%; */
+        margin-left: 13%;
+        /* padding-right: 10%; */
+    }
+    .login p{
+
+        margin-top: 65%;
+        padding-left: 32.5%;
+        padding-right: 15%;
+    }
+    .home p{
+        margin-top: 65%;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
 }
