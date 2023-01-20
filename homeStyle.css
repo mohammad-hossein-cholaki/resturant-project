@@ -320,6 +320,15 @@ header .icons #menu{
 	left: 0;
 }
 
+/* add bullet ------------------------------------------------------*/
+
+.swiper-pagination-bullet{
+    background: var(--light-color) !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 0 !important;
+}
+
 /* end of slider style */
 
 /* ------------------------------------------------------------------ */
@@ -384,4 +393,17 @@ header .icons #menu{
         font-size: 2rem;
         background: var(--black);
     }
+
+    /* slider media query ---------------------------------------*/
+    .home .home-slider .slide{
+        justify-content: space-evenly;
+        height: 80vh;
+        
+    }
+
+    .home .home-slider .slide .content{
+        padding: 0;
+        
+    }
+
 }
