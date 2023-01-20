@@ -16,8 +16,6 @@
  text-decoration: none;
  border: none;
  outline: none;
- /* text-transform: capitalize;
- transition: all .2s linear; */
 }
 .parent{
     width: 100vw;
@@ -30,26 +28,14 @@
 .parent .login{
     width: 50vw;
     height: 100vh;
-    /* position: absolute; */
 }
 
-/* .parent{
-    display: flex;
-    align-items: center;
-} */
 
 .home{
     background: url(./pic/home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(5, 5, 109, 0.356);
-    /* background-position: center; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center; */
-    /* transition: .5s; */
 }
 
 .login{
@@ -57,11 +43,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: center;
-    align-content: center;
-    text-align: center; */
 }
 
 /* text */
@@ -72,26 +53,19 @@
     position: absolute;
     font-size: 2.5rem;
     font-weight: 400;
-    /* height: 100%; */
     height: auto;
-    /* margin-top: 25%;
-    padding-left: 15%; */
-    /* padding-right: 15%; */
     transition: .5s;
 
 }
 
 .text-2{
     text-align: center;
-    /* color: var(--black); */
     color: aliceblue;
     position: absolute;
     font-size: 1.5rem;
     font-weight: 400;
-    /* height: 100%; */
     height: auto;
     margin-top: 30%;
-    /* margin-left: 15%; */
     transition: .5s;
 }
 .login h3{
@@ -102,7 +76,6 @@
 .home h3{
     margin-top: 25%;
     padding-left: 13%;
-    /* padding-right: 10%; */
 }
 .login p{
     padding-left: 15%;
@@ -115,34 +88,14 @@
 .secondParent{
     height: 100%;
     text-align: center;
-    /* background-color: #333; */
 }
-
-/* .text:hover{ */
-    /* height: 50%; */
-    /* background-color: rgba(1, 1, 12, 0.164); */
-    /* position: absolute;
-    top: 50%; */
-    /* height: 100%; */
-
-/* } */
 
 
 .secondParent:hover{
     transition: .5s;
-
-    /* background: var(--black); */
     background-color: rgba(3, 2, 85, 0.219);
-    color: aliceblue;
-    /* background-size: contain; */
-    /* transition: .5s; */
-    /* filter: blur(2px); */
-    
-    
+    color: aliceblue;   
 }
-
-
-
 
 
 @media (max-width: 991px){
@@ -170,7 +123,6 @@
         height: 100vh;
     }
     .parent .login{
-        /* top: 0; */
         width: 100vw;
         height: 100vh;
         position: absolute;
@@ -193,9 +145,7 @@
     }
     .home h3{
         margin-top: 25%;
-        /* padding-left: 80%; */
         margin-left: 13%;
-        /* padding-right: 10%; */
     }
     .login p{
 
