@@ -362,6 +362,97 @@ header .icons #menu{
  /* end of lorem section  */
 
 /* ------------------------------------------------------------------ */
+
+/* offer style start */
+
+.offerWelcome{
+    padding: 8rem 9%;
+
+}
+
+.offerHeading{
+    text-align: center;
+    color: var(--black);
+    font-size: 5rem;
+    padding-bottom: 2rem;
+    letter-spacing: 1.3px;
+}
+
+.offerHeading2{
+    text-align: center;
+    color: var(--black);
+    font-size: 2.5rem;
+    padding: .5rem 2rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+.offerWelcome .offerContainer{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.offerWelcome .offerContainer .offerBox{
+    width: 33%;
+    background: var(--black);
+    text-align: center;
+    padding-bottom: 1%;
+    border: 2px solid var(--light-color);
+    border-radius: 8px;
+}
+
+.offerWelcome .offerContainer .offerBox .offerImage{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.offerWelcome .offerContainer .offerBox .offerImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent{
+padding: 2rem;
+padding-top: 2rem;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent h3{
+    color: var(--light-color);
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent p{
+    color: #fff;
+    font-size: 1.4rem; 
+    font-weight: 300;
+    padding: .5rem 0;
+    line-height: 1.5;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: ; */
+    padding-top: 2rem;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent .price .dollar{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.offerWelcome .offerContainer .offerBox .offerContent .price .heart{
+    color: var(--light-color);
+    font-size: 2rem;
+}
+
+/* end of offer style */
+
 /* ------------------------------------------------------------------ */
 
 /*footer style start*/
@@ -497,6 +588,21 @@ header .icons #menu{
         padding: 0;
         
     }
+    /* ----------------------------------------------------------- */
+
+    /* offerWelcome section  */
+
+    .offerWelcome .offerContainer{
+        flex-wrap: wrap;
+    }
+
+    .offerWelcome .offerContainer .offerBox{
+        width: 100%;
+    }
+
+    /* offerWelcome section  */
+
+    /* ----------------------------------------------------------- */
 
 .footer .container {
     display: grid;
@@ -507,6 +613,7 @@ header .icons #menu{
 .footer .container section{
     width: 100%;
 }
+
 
 
 }
