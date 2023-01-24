@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>menu</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
     <link rel="stylesheet" href="./allFoods.css">
+    <link rel="stylesheet" href="./homeStyle.css">
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
@@ -26,9 +27,9 @@
 
 
         <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
+            <a href="./home.html">home</a>
+            <a href="./index.html">welcome</a>
+            <a href="./allFoods.html">menu</a>
             <a href="#team">team</a>
             <a href="#reservation">reservation</a>
             <a href="#blog">blog</a>
@@ -36,13 +37,123 @@
         <div class="icons">
             <i class="fas fa-bars" id="menu"> </i>
             <!-- <i class="fas fa-search"> </i> -->
-            <i class="fas fa-heart"> </i>
+            <!-- <i class="fas fa-heart"> </i> -->
             <i class="fas fa-shopping-cart"> </i>
+            <a href="./login.html"><i class="fas fa-solid fa-user"></i></a>
+            
         </div>
     </header>
 
     <!-- header section end -->
-    
+
+    <!-- main content -->
+
+    <!-- welcome -->
+
+    <section class="welcome" id="about">
+        <h1 class="heading">WHAT ARE YOU LOOKING FOR</h1>
+        <center><h3 class="sub-heading">We have collected all the delicious dishes for you</h3></center>
+
+        <!-- <h3 class="sub-heading">We have collected all the delicious dishes for you</h3> -->
+
+        <div class="box-container" id="meal">
+            <!-- <section class="box">
+                <section class="image">
+                    <img src="./pic/post-thumb-1.jpg" alt="">
+                </section>
+                <section class="content">
+                    <h3>PROFESSIONAL LEVEL</h3>
+                    <p>nor again is there anyone who loves or pursues or desire to obtain pain of itself, because it is pain, but because occasionally circumstance occur.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </section>
+            </section>
+
+            <section class="box">
+                <section class="image">
+                    <img src="./pic/post-thumb-2.jpg" alt="">
+                </section>
+                <section class="content">
+                    <h3>FRESH FOOD GUARANTEED</h3>
+                    <p>nor again is there anyone who loves or pursues or desire to obtain pain of itself, because it is pain, but because occasionally circumstance occur.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </section>
+            </section>
+
+            <section class="box">
+                <section class="image">
+                    <img src="./pic/post-thumb-3.jpg" alt="">
+                </section>
+                <section class="content">
+                    <h3>THE MENU IS PLENTIFUL</h3>
+                    <p>nor again is there anyone who loves or pursues or desire to obtain pain of itself, because it is pain, but because occasionally circumstance occur.</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </section>
+            </section> -->
+        </div>
+    </section>
+    <!-- ---------------------------------------------------------- -->
+    <div class = "meal-window">
+        <!-- recipe close btn -->
+        <button type = "button" class = "btn-close btnClose2" id = "recipe-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- meal content -->
+        <div class = "mealContent">
+          <h2 class = "recipeTitle">Meals Name Here</h2>
+          <p class = "category">Category Name</p>
+          <div class = "recipeImage">
+            <img src = "./pic/post-thumb-3.jpg" alt = "">
+          </div>
+          <div class = "explain">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+           
+          </div>
+          
+          <div class = "videoLink btn">
+            <a href = "#" target = "_blank">Watch Video</a>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- footer section start -->
+<section class="footer">
+		<!-- <img src="logo.png" class="logo"> -->
+
+	<section class="container">
+		<section>
+			<h3>ABOUT US</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorum nisi quisquam blanditiis at odit?</p>
+		</section>
+
+		<section>
+			<h3>Lorem ipsum</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorum nisi quisquam blanditiis at odit?</p>
+		</section>
+
+		<section>
+			<h3>CONTACT US</h3>
+			<span>+ (98) 9378511551</span>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.Lorem</p>
+			<ul>
+				<li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+			</ul>
+			<input type="email" name="" placeholder="enter your email">
+		</section>
+	</section>
+
+	<p>&copy;2023 Reserved. This template is made by mohammad hossein cholaki</p>
+</section>
+	<!-- footer section end -->
 
 
     <script src="./allFoods.js"></script>

@@ -16,13 +16,10 @@
  text-decoration: none;
  border: none;
  outline: none;
- /* text-transform: capitalize;
- transition: all .2s linear; */
 }
 
 html{
     font-size: 62.5%;
-    /* overflow: hidden; */
     scroll-behavior: smooth;
 }
 
@@ -49,40 +46,20 @@ header{
 
 /* logo */
 
-header .logo img{
+/* header .logo img{
     height: auto;
-}
+} */
 
 /* end of logo */
 
 /* -------------------------------------------------------------------- */
 
 /* search bar */
-/* 
-header .search-icon i{
-    cursor: pointer;
-    margin-left: .5rem;
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem; */
-    /* background: var(--light-color); */
-    /* text-align: center;
-    font-size: 1.7rem;
-    color: var(--light-color);
-}
-
-header .search-icon i:hover{
-    color: #fff;
-    border: .2rem solid rgba(205, 170, 124, 0.5 );
-} */
 /* ------------------------------------------------------------------ */
 .search{
     position: relative;
-    /* height: 60px;
-    width: 60px; */
     height: 4.5rem;
     width: 4.5rem;
-    /* background: #fff; */
     border-radius: 5px;
     transition: .5s;
     box-shadow: 0 0 0 5px #333;
@@ -102,12 +79,8 @@ width: 250px;
     position: absolute;
     top: 0;
     left: 0;
-    /* width: 60px;
-    height: 60px; */
     height: 4.5rem;
     width: 4.5rem;
-    /* background: #fff; */
-    /* border-radius: 60px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,16 +190,13 @@ header .icons i{
     height: 4.5rem;
     width: 4.5rem;
     line-height: 4.5rem;
-    /* background: var(--light-color); */
     text-align: center;
     font-size: 1.7rem;
     color: var(--light-color);
 }
 
 header .icons i:hover{
-    color: #fff;
-    background: var(--light-color);
-    /* transform: rotate(360deg); */
+    transform:scale(1.2);
 }
 
 header .icons #menu{
@@ -333,6 +303,68 @@ header .icons #menu{
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
+
+/*footer style start*/
+.footer
+{
+	background: var(--black);
+	text-align: center;
+	color: #b2b2b2;
+	font-size: 1.3rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footer .container
+{
+    display: flex;
+	color: #fdfafa;
+	padding: 4rem 0;
+}
+.footer .container section
+{
+	padding: 0 7rem;
+    width: 33%;
+}
+.footer .container h3
+{
+	color: var(--light-color);
+	font-size: 1.5rem;
+	padding-bottom: .8rem;
+}
+.footer .container input
+{
+	width: 100%;
+	border: 1px solid var(--light-color);
+	padding: .5rem .8rem;
+	background: transparent;
+	border-radius: 5px;
+}
+.footer .container ul 
+{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer .container ul li a 
+{
+	color: #030303;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.footer .container ul li:hover a{
+    color: var(--light-color);
+} 
+
+.footer .container span 
+{
+	display: block;
+}
+/*footer style ends*/
+
+
+
 /* ------------------------------------------------------------------ */
 
 /* media query */
@@ -405,5 +437,16 @@ header .icons #menu{
         padding: 0;
         
     }
+
+.footer .container {
+    display: grid;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer .container section{
+    width: 100%;
+}
+
 
 }
