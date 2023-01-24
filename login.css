@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root
+{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*
+{
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ border: none;
+ outline: none;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--black);
+}
+
+.box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(34, 33, 33);
+    text-align: center;
+    border: 1px solid var(--light-color);
+    border-radius: 8px;
+    
+}
+.box h1{
+    /* color: var(--light-color); */
+    color: #fff;
+    
+    font-weight: 400;
+}
+
+.box input[type="text"],.box input[type="password"]{
+    /* border: 0; */
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid var(--light-color);
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: rgb(231, 222, 222);
+    /* color: var(--light-color); */
+    border-radius: 6px;
+    transition: .25px;
+}
+
+.box input[type="submit"]{
+    /* border: 0; */
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 1px solid var(--light-color);
+    padding: 12px 20px;
+    /* width: 220px;  */
+    outline: none;
+    color: white;
+    border-radius: 6px;
+    transition: .25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    font-weight: 700;
+    padding: 11px 20px;
+    background-color: #fff;
+    color: var(--black);
+    border: 2px solid var(--light-color);
+
+
+}
