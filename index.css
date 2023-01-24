@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root
+{
+    --black: #333;
+    --light-color: #cdaa7c;
+    --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*
+{
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ border: none;
+ outline: none;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.parent .home,
+.parent .login{
+    width: 50vw;
+    height: 100vh;
+}
+
+
+.home{
+    background: url(./pic/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(5, 5, 109, 0.356);
+}
+
+.login{
+    background: url(./pic/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* text */
+
+.text {
+    text-align: center;
+    color: var(--light-color);
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 400;
+    height: auto;
+    transition: .5s;
+
+}
+
+.text-2{
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: auto;
+    margin-top: 30%;
+    transition: .5s;
+}
+.login h3{
+    margin-top: 25%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.home h3{
+    margin-top: 25%;
+    padding-left: 13%;
+}
+.login p{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.home p{
+    padding-left: 6%;
+    padding-right: 8%;
+}
+.secondParent{
+    height: 100%;
+    text-align: center;
+}
+
+
+.secondParent:hover{
+    transition: .5s;
+    background-color: rgba(3, 2, 85, 0.219);
+    color: aliceblue;   
+}
+
+
+@media (max-width: 991px){
+.parent .home,
+.parent .login{
+    top: 0;
+    width: 50vw;
+    height: 80vh;
+}
+
+.text{
+    font-size: 1.8rem;
+}
+.login p{
+    padding-left: 12%;
+    padding-right: 15%;
+}
+}
+
+@media (max-width: 768px){
+    .parent .home{
+        top: 100vh;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+    .parent .login{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+    }
+    
+    .text{
+        padding-left: 25%;
+        padding-top: 30%;
+        font-size:2rem;
+    }
+
+    .home .text{
+        padding-left: 18%;
+    }
+
+    .login h3{
+        margin-top: 25%;
+        padding-left: 35%;
+        padding-right: 15%;
+    }
+    .home h3{
+        margin-top: 25%;
+        margin-left: 13%;
+    }
+    .login p{
+
+        margin-top: 65%;
+        padding-left: 32.5%;
+        padding-right: 15%;
+    }
+    .home p{
+        margin-top: 65%;
+        padding-left: 17%;
+        padding-right: 17%;
+    }
+}
