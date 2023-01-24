@@ -22,9 +22,6 @@ html{
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
-body{
-    height: 100vh;
-}
 
 /* -------------------------------------------------------------------- */
 /* -------------------------------------------------------------------- */
@@ -405,17 +402,17 @@ header .icons #menu{
 .footer
 {
     /* position: fixed; */
-    /* padding: 0;
+    padding: 0;
     margin-bottom: 0;
     bottom: 0;
     right: 0;
-    left: 0; */
+    left: 0;
 	background: var(--black);
 	text-align: center;
 	color: #b2b2b2;
 	font-size: 1.3rem;
     width: 100%;
-    /* margin-top: 10rem; */
+    margin-top: 10rem;
     /* padding-bottom: 3rem; */
 }
 .footer .container

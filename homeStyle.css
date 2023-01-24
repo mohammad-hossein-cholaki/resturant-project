@@ -264,7 +264,7 @@ header .icons #menu{
     margin-top: 1rem;
     display: inline-block;
     font-size: 1.7rem;
-    color: #fff;
+    color: var(--black);
 	border: .1rem solid rgba(205,170,124,0.2);
 	/* background: transparent; */
 	cursor: pointer;
@@ -300,6 +300,66 @@ header .icons #menu{
 }
 
 /* end of slider style */
+
+/* start of about section */
+.aboutSection{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.aboutSection .imagesection{
+    flex: 1 1 41rem;
+}
+
+.aboutSection .imagesection img{
+    width: 100%;
+}
+
+.aboutSection .contentSection{
+    flex: 1 1 41rem;
+}
+
+.aboutSection .contentSection .titlle{
+    font-size: 4rem;
+    color: var(--light-color);
+}
+
+.aboutSection .contentSection p{
+    font-size: 1.4rem;
+    color: var(--black);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+/* end of about section */
+
+ /* start lorem section  */
+
+.lecture{
+    text-align: center;
+    margin: 10rem 0;
+    padding: 10rem 2rem;
+    background: var(--black);
+
+    
+}
+
+.lecture h2{
+    color: var(--light-color);
+    font-size: 4rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+}
+
+.lecture p{
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 2;
+}
+
+ /* end of lorem section  */
 
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
